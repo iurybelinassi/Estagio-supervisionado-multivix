@@ -1,0 +1,41 @@
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-size: 1.2rem;
+    font-family: arial;
+   
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+.header {
+    background: #023047 ;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menu {
+    display: flex;  
+}
+.menu li {
+    margin-left: 10px;
+}
+.menu li a {
+    display:block;
+    padding: 10px;
+
+}
+.menu li a:hover{
+    color: #219ebc;
+}
+body{
+    background-color:white;
+}
